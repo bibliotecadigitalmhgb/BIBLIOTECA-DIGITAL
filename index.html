@@ -1,0 +1,466 @@
+<!DOCTYPE html>
+<html lang="pt=br">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="reset.css" />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css?family=Poppins:wght@300;400;500;700&display=swap"
+      rel="stylesheet"
+    />
+    <link href="https://fonts.googleapis.com/css?family=Josefin+Sans:wght@400;700&display=swap" rel="stylesheet">
+    <link
+      rel="stylesheet"
+      href="https://cdn.jsdelivr.net/npm/swiper@11/swiper-bundle.min.css"
+    />
+    <link rel="stylesheet" href="style.css" />
+    <title>Biblioteca Digital MHGB</title>
+  </head>
+  <body>
+    <header class="cabeçalho">
+      <div class="container">
+        <input type="checkbox" id="menu" class="container_botao" />
+        <label for="menu" class="containet_rotulo">
+          <span class="cabeçalho__menu_hamburguer container__imagem"></span>
+        </label>
+        <ul class="lista_menu">
+          <li class="lista_menu_titulo">GÊNEROS</li>
+          <li class="lista_menu_item">
+            <a href="#" class="lista_menu_link">FICÇÃO</a>
+          </li>
+          <li class="lista_menu_item">
+            <a href="#" class="lista_menu_link">ROMANCE</a>
+          </li>
+          <li class="lista_menu_item">
+            <a href="#" class="lista_menu_link">GIBIS</a>
+          </li>
+          <li class="lista_menu_item">
+            <a href="#" class="lista_menu_link">LITERATURA INFANTO JUVENIL</a>
+          </li>
+          <li class="lista_menu_item">
+            <a href="#" class="lista_menu_link">CONTOS</a>
+          </li>
+          <li class="lista_menu_item">
+            <a href="#" class="lista_menu_link">HISTÓRIA EM QUADRINHOS</a>
+          </li>
+          <li class="lista_menu_item">
+            <a href="#" class="lista_menu_link">DIREITO</a>
+          </li>
+          <li class="lista_menu_item">
+            <a href="#" class="lista_menu_link">ENSINO TÉCNICO</a>
+          </li>
+          <li class="lista_menu_item">
+            <a href="#" class="lista_menu_link">LENDAS E FOLCLORE</a>
+          </li>
+          <li class="lista_menu_item">
+            <a href="#" class="lista_menu_link">PARLENDAS</a>
+          </li>
+          <li class="lista_menu_item">
+            <a href="#" class="lista_menu_link">DIDÁTICOS</a>
+          </li>
+          <li class="lista_menu_item">
+            <a href="#" class="lista_menu_link">GRANDES AUTORES</a>
+          </li>
+          <li class="lista_menu_item">
+            <a href="#" class="lista_menu_link">DICIONÁRIOS PORTUGUÊS / INGLÊS / ESPANHOL</a>
+          </li>
+          <li class="lista_menu_item">
+            <a href="#" class="lista_menu_link">LIVROS RELIGIOSOS</a>
+          </li>
+          <li class="lista_menu_item">
+            <a href="#" class="lista_menu_link">MITOLOGIA</a>
+          </li>
+          <li class="lista_menu_item">
+            <a href="#" class="lista_menu_link">ARTE</a>
+          </li>
+          <li class="lista_menu_item">
+            <a href="#" class="lista_menu_link">ATLAS</a>
+          </li>
+          <li class="lista_menu_titulo">PLATAFORMA LEIA SP</li>
+          <li class="lista_menu_item">
+            <a href="#" class="lista_menu_link">6º ANOS</a>
+          </li>
+          <li class="lista_menu_item">
+            <a href="#" class="lista_menu_link">7º ANOS</a>
+          </li>
+          <li class="lista_menu_item">
+            <a href="#" class="lista_menu_link">8º ANOS</a>
+          </li>
+          <li class="lista_menu_item">
+            <a href="#" class="lista_menu_link">9º ANOS</a>
+          </li>
+          <li class="lista_menu_item">
+            <a href="#" class="lista_menu_link">1º ANO ENSINO MÉDIO</a>
+          </li>
+          <li class="lista_menu_item">
+            <a href="#" class="lista_menu_link">2º ANO ENSINO MÉDIO</a>
+          </li>
+          <li class="lista_menu_item">
+            <a href="#" class="lista_menu_link">3º ANO ENSINO MÉDIO</a>
+          </li>
+        </ul>
+        <img
+          src="img/logo.png"
+          alt="logo da AluraBooks"
+          class="container__imagem"
+        />
+        <h1 class="container_titulo">Biblioteca Digital M<b class="container_titulo_negrito">H</b><b class="container_titulo_negrito">G</b>B</h1>
+      </div>
+      <ul class="opções">
+        <input type="checkbox" id="opções_menu" class="opções_botão">
+        <label for="opções_menu" class="opções_rotulo">
+            <li class="opções_item">GÊNEROS</li>
+        </label>
+
+        <ul class="lista_menu">
+          <li class="lista_menu_item">
+            <a href="#" class="lista_menu_link">FICÇÃO</a>
+          </li>
+          <li class="lista_menu_item">
+            <a href="#" class="lista_menu_link">ROMANCE</a>
+          </li>
+          <li class="lista_menu_item">
+            <a href="#" class="lista_menu_link">GIBIS</a>
+          </li>
+          <li class="lista_menu_item">
+            <a href="#" class="lista_menu_link">LITERATURA INFANTO JUVENIL</a>
+          </li>
+          <li class="lista_menu_item">
+            <a href="#" class="lista_menu_link">CONTOS</a>
+          </li>
+          <li class="lista_menu_item">
+            <a href="#" class="lista_menu_link">HISTÓRIA EM QUADRINHOS</a>
+          </li>
+          <li class="lista_menu_item">
+            <a href="#" class="lista_menu_link">DIREITO</a>
+          </li>
+          <li class="lista_menu_item">
+            <a href="#" class="lista_menu_link">ENSINO TÉCNICO</a>
+          </li>
+          <li class="lista_menu_item">
+            <a href="#" class="lista_menu_link">LENDAS E FOLCLORE</a>
+          </li>
+          <li class="lista_menu_item">
+            <a href="#" class="lista_menu_link">PARLENDAS</a>
+          </li>
+          <li class="lista_menu_item">
+            <a href="#" class="lista_menu_link">DIDÁTICOS</a>
+          </li>
+          <li class="lista_menu_item">
+            <a href="#" class="lista_menu_link">GRANDES AUTORES</a>
+          </li>
+          <li class="lista_menu_item">
+            <a href="#" class="lista_menu_link">DICIONÁRIOS PORTUGUÊS / INGLÊS / ESPANHOL</a>
+          </li>
+          <li class="lista_menu_item">
+            <a href="#" class="lista_menu_link">LIVROS RELIGIOSOS</a>
+          </li>
+          <li class="lista_menu_item">
+            <a href="#" class="lista_menu_link">MITOLOGIA</a>
+          </li>
+          <li class="lista_menu_item">
+            <a href="#" class="lista_menu_link">ARTE</a>
+          </li>
+          <li class="lista_menu_item">
+            <a href="#" class="lista_menu_link">ATLAS</a>
+          </li>
+        </ul>
+
+        <li class="opções_item"><a href="#" class="opções_link">FAVORITOS</a></li>
+        <input type="checkbox" id="opções_menuSP" class="opções_checkboxSP">
+<label for="opções_menuSP" class="opções_rotuloSP">
+    <li class="opções_itemSP">PLATAFORMA LEIA SP</li>
+</label>
+<ul class="lista_menuSP">
+    <li class="lista_menu_item"><a href="#">6º ANOS</a></li>
+    <li class="lista_menu_item"><a href="#">7º ANOS</a></li>
+    <li class="lista_menu_item"><a href="#">8º ANOS</a></li>
+    <li class="lista_menu_item"><a href="#">9º ANOS</a></li>
+    <li class="lista_menu_item"><a href="#">1º ANO ENSINO MÉDIO</a></li>
+    <li class="lista_menu_item"><a href="#">2º ANO ENSINO MÉDIO</a></li>
+    <li class="lista_menu_item"><a href="#">3º ANO ENSINO MÉDIO</a></li>
+</ul>
+
+      <div class="container">
+        <a href="#" class="container_link"
+          ><img
+            src="img/Usuário.svg"
+            alt="meus perfil"
+            class="container__imagem"
+        /><p class="container_texto">Meu perfil</p></a>
+      </div>
+    </header>
+
+    <section class="banner">
+      <h2 class="banner_titulo">Já leu um livro hoje?</h2>
+      <p class="banner_texto">
+        Encontre em nossa estante o que precisa para seu desenvolvimento!
+      </p>
+      <a href="pesquisa.html">
+      <input
+        type="search"
+        class="banner_pesquisa"
+        placeholder="Qual será sua próxima leitura?"
+      />
+    </a>
+    </section>
+    <section class="carrosel">
+      <h2 class="carrosel_titulo">FAVORITOS</h2>
+      <!-- Slider main container -->
+       <div class="carrosel_container">
+      <div class="swiper">
+        <!-- Additional required wrapper -->
+        <!-- If we need pagination -->
+        <div class="swiper-pagination"></div>
+
+        <div class="swiper-wrapper">
+          <!-- Slides -->
+          <div class="swiper-slide">
+            <img src="./img livro/eu sou malala.png" alt="Livro Guia front end" />
+          </div>
+          <div class="swiper-slide">
+            <img
+              src="./img livro/Diário de uma garota nada popular.png"
+              alt="Livro sobre javascript assertivo da alura books"
+            />
+          </div>
+          <div class="swiper-slide">
+            <img src="./img livro/O Diário de Anne Frank.png" alt="Livro sobre portugol" />
+          </div>
+          <div class="swiper-slide">
+            <img
+              src="./img livro/Susy e as águas - vivas.png"
+              alt="Livro sobre liderança em design design da alura books"
+            />
+          </div>
+          <div class="swiper-slide">
+            <img src="./img livro/Shakespeare 1.png" alt="livro sobre gestão" />
+          </div>
+          <div class="swiper-slide">
+            <img src="./img livro/O Gato Preto 1.png" alt="livro sobre gestão" />
+          </div>
+          <div class="swiper-slide">
+            <img src="./img livro/O fanstástico mistério de Feiurinha 1.png" alt="livro sobre gestão" />
+          </div>
+        </div>
+
+        <!-- If we need navigation buttons -->
+        <div class="swiper-button-prev"></div>
+        <div class="swiper-button-next"></div>
+      </div>
+
+      
+      
+    </div>
+
+      <h2 class="carrosel_titulo">PLATAFORMA LEIA SP</h2>
+      <img src="img/LEIASP.png" alt="">
+      <div class="carrosel_container">
+      <!-- Slider main container -->
+      <div class="swiper">
+        <!-- Additional required wrapper -->
+        <!-- If we need pagination -->
+        <div class="swiper-pagination"></div>
+
+        <div class="swiper-wrapper">
+          <!-- Slides -->
+          <div class="swiper-slide">
+            <img src="./img/Guia Front-end.svg" alt="Livro Guia front end" />
+          </div>
+          <div class="swiper-slide">
+            <img
+              src="./img/Javascript.svg"
+              alt="Livro sobre javascript assertivo da alura books"
+            />
+          </div>
+          <div class="swiper-slide">
+            <img
+              src="img/Liderança.svg"
+              alt="Livro sobre liderança em design design da alura books"
+            />
+          </div>
+          <div class="swiper-slide">
+            <img src="./img/Gestão.svg" alt="livro sobre gestão" />
+          </div>
+          <div class="swiper-slide">
+            <img src="img/Portugol.svg" alt="Livro sobre portugol" />
+          </div>
+          ...
+        </div>
+
+        <!-- If we need navigation buttons -->
+        <div class="swiper-button-prev"></div>
+        <div class="swiper-button-next"></div>
+      </div>
+
+      <div class="card">
+        <!-- 3° linha -->
+        <div class="card_descrição">
+          <!-- 1° coluna -->
+
+          <div class="descrição">
+            <img
+              src="img/Estrelinhas.svg"
+              class="descrição_imagem"
+              alt="5 Estrelinhas"
+            />
+            <h3 class="descrição_titulo">Comentários</h3>
+            <h2 class="descrição_titulo_livro">Jéssica Soares</h2>
+            <p class="descrição_texto">
+              O livro Eu sou Malala mostra que o medo não pode nos impedir de batalhar por umm mundo melhor.
+            </p>
+          </div>
+          <!-- 2° coluna -->
+          <img src="img livro/eu sou malala.png" class="descrição_imgem" />
+        </div>
+
+        <!-- 4° linha -->
+        <div class="card_botões">
+          <!-- 1° coluna -->
+          <ul class="botões">
+            <li class="botões_item">
+              <img src="img/Favoritos.svg" alt="favoritar livro" />
+            </li>
+          </ul>
+          <!-- 2° coluna -->
+          <!-- <a href="#" class="botões_ancora">Saiba mais</a> -->
+        </div>
+      </div>
+    </div>
+      
+    </section>
+
+    <section class="topicos">
+        <h2 class="topicos_titulo">INDICAÇÃO DA SEMANA</h2>
+        <ul class="topicos_lista">
+            <li class="topicos_item">
+                <a href="#" class="topicos_link">SHAKESPEARE</a>
+            </li>
+            <li class="topicos_item">
+                <a href="#" class="topicos_link">O GATO PRETO</a>
+            </li>
+            <li class="topicos_item">
+                <a href="#" class="topicos_link">DIÁRIO DE UMA GAROTA NADA POPULAR</a>
+            </li>
+            <li class="topicos_item">
+                <a href="#" class="topicos_link">O DIÁRIO DE ANNE FRANK</a>
+            </li>
+            <li class="topicos_item">
+                <a href="#" class="topicos_link">DIÁRIO DE UM BANANA RODRICK É O CARA</a>
+            </li>
+            <li class="topicos_item">
+                <a href="#" class="topicos_link">EU SOU MALALA</a>
+            </li>
+            <li class="topicos_item">
+                <a href="#" class="topicos_link">SUZY E AS ÁGUAS-VIVAS</a>
+            </li>
+            <li class="topicos_item">
+                <a href="#" class="topicos_link">O FANTÁSTICO MÍSTÉRIO DE FEIURINHA</a>
+            </li>
+        </ul>
+    </section>
+
+   <!-- <section class="contato">
+      <div class="contato_descrição">
+        <h2 class="contato_titulo">Fique por dentro das novidades!</h2>
+        <p class="contato_texto">Atualizações de e-books, novos livros, promoções e outros.</p>
+      </div>
+        <input type="email" placeholder="Cadastre seu e-mail" class="contato_email"> 
+    </section>
+    -->
+
+  <!-- <footer class="rodape">
+        <h2 class="rodape_titulo">Grupo Alura</h2>
+        <ul class="lista_rodape">
+          <li class="lista_rodape_titulo">EDUCAÇÃO</li>
+          <li class="lista_rodape_item">
+            <img src="img/CasaDoCodigo.svg" alt="Logo da Casa do Código">
+            <a href="#" class="lista-rodapé__link">Casa do Código</a>
+          </li>
+          <li class="lista-rodapé__item">
+            <img src="img/Caelum.svg" alt="Logo da Caelum">
+            <a href="#" class="lista-rodapé__link">Caelum</a>
+        </li>
+        </ul>
+
+        <ul class="lista_rodape">
+          <li class="lista_rodape_titulo">Educação online</li>
+          <li class="lista_rodape_item">
+              <img src="img/Alura.svg" alt="Logo da Alura">
+              <a href="#" class="lista-rodapé__link">Alura</a>
+          </li>
+          <li class="lista_rodape_item">
+              <img src="img/AluraEmpresas.svg" alt="Logo da AluraParaEmpresas">
+              <a href="#" class="lista-rodapé__link">Alura para Empresas</a>
+          </li>
+          <li class="lista_rodape_item">
+              <img src="img/AluraLATAM.svg" alt="Logo da Alura Latam">
+              <a href="#" class="lista-rodapé__link">Alura LATAM</a>
+          </li>
+          <li class="lista_rodape_item">
+              <img src="img/AluraStart.svg" alt="Logo da Alura START">
+              <a href="#" class="lista-rodapé__link">Alura Start</a>
+          </li>
+          <li class="lista_rodape_item">
+              <img src="img/MusicDot.svg" alt="Logo da Music Dot">
+              <a href="#" class="lista-rodapé__link">Music Dot</a>
+          </li>
+          <li class="lista_rodape_item">
+              <img src="img/AluraLingua.svg" alt="Logo da Alura Lingua">
+              <a href="#" class="lista-rodapé__link">Alura Lingua</a>
+          </li>
+          <li class="lista_rodape_item">
+              <img src="img/PM3.svg" alt="Logo da PM3">
+              <a href="#" class="lista-rodapé__link">PM3</a>
+          </li>
+      </ul>
+
+      <ul class="lista_rodape">
+        <li class="lista_rodape_titulo">Comunidade</li>
+        <li class="lista_rodape_item">
+            <img src="img/HipstersTech.svg" alt="Logo do Hipsters ponto Tech">
+            <a href="#" class="lista-rodapé__link">Hipsters ponto Tech</a>
+        </li>
+        <li class="lista_rodape_item">
+            <img src="img/ScubaDev.svg" alt="Logo do Scuba Dev">
+            <a href="#" class="lista-rodapé__link">Scuba Dev</a>
+        </li>
+        <li class="lista_rodape_item">
+            <img src="img/LayersTech.svg" alt="Logo do Layers ponto Tech">
+            <a href="#" class="lista-rodapé__link">Layers ponto Tech</a>
+        </li>
+        <li class="lista_rodape_item">
+            <img src="img/LikeABoss.svg" alt="Logo do Like a Boss">
+            <a href="#" class="lista-rodapé__link">Like a Boss</a>
+        </li>
+        <li class="lista_rodape_item">
+            <img src="img/CarreiraSemFronteira.svg" alt="Logo do Carreira sem fronteiras">
+            <a href="#" class="lista-rodapé__link">Carreira sem fronteiras</a>
+        </li>
+        <li class="lista_rodape_item">
+            <img src="img/HipstersJobs.svg" alt="Logo do Hipsters ponto jobs">
+            <a href="#" class="lista-rodapé__link">Hipsters ponto jobs</a>
+        </li>
+        <li class="lista_rodape_item">
+            <img src="img/GUJ.svg" alt="Logo do GUJ">
+            <a href="#" class="lista-rodapé__link">GUJ</a>
+        </li>
+    </ul>
+    </footer>
+  -->
+
+    <script src="https://cdn.jsdelivr.net/npm/swiper@11/swiper-bundle.min.js"></script>
+    <script>
+      const swiper = new Swiper(".swiper", {
+        spaceBetween: 10,
+        slidesPerView: 3,
+        pagination: {
+          el: ".swiper-pagination",
+          type: "bullets",
+        },
+      });
+    </script>
+  </body>
+</html>

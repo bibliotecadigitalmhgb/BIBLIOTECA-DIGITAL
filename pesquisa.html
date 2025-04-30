@@ -1,0 +1,197 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Biblioteca Digital MHGB</title>
+
+    <link rel="stylesheet" href="reset.css" />
+    <link rel="stylesheet" href="style.css" />
+    <link rel="stylesheet" href="pesquisaCSS/pesquisa.css">
+
+    <!-- Fontes -->
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link href="https://fonts.googleapis.com/css?family=Poppins:wght@300;400;500;700&display=swap" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css?family=Josefin+Sans:wght@400;700&display=swap" rel="stylesheet">
+
+    <!-- Swiper CSS -->
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/swiper@11/swiper-bundle.min.css" />
+</head>
+<body>
+
+    <header class="cabeçalho">
+      <div class="container">
+        <input type="checkbox" id="menu" class="container_botao" />
+        <label for="menu" class="containet_rotulo">
+          <span class="cabeçalho__menu_hamburguer container__imagem"></span>
+        </label>
+        <ul class="lista_menu">
+          <li class="lista_menu_titulo">GÊNEROS</li>
+            <li class="lista_menu_item">
+              <a href="#" class="lista_menu_link">FICÇÃO</a>
+            </li>
+            <li class="lista_menu_item">
+              <a href="#" class="lista_menu_link">ROMANCE</a>
+            </li>
+            <li class="lista_menu_item">
+              <a href="#" class="lista_menu_link">GIBIS</a>
+            </li>
+            <li class="lista_menu_item">
+              <a href="#" class="lista_menu_link">LITERATURA INFANTO JUVENIL</a>
+            </li>
+            <li class="lista_menu_item">
+              <a href="#" class="lista_menu_link">CONTOS</a>
+            </li>
+            <li class="lista_menu_item">
+              <a href="#" class="lista_menu_link">HISTÓRIA EM QUADRINHOS</a>
+            </li>
+            <li class="lista_menu_item">
+              <a href="#" class="lista_menu_link">DIREITO</a>
+            </li>
+            <li class="lista_menu_item">
+              <a href="#" class="lista_menu_link">ENSINO TÉCNICO</a>
+            </li>
+            <li class="lista_menu_item">
+              <a href="#" class="lista_menu_link">LENDAS E FOLCLORE</a>
+            </li>
+            <li class="lista_menu_item">
+              <a href="#" class="lista_menu_link">PARLENDAS</a>
+            </li>
+            <li class="lista_menu_item">
+              <a href="#" class="lista_menu_link">DIDÁTICOS</a>
+            </li>
+            <li class="lista_menu_item">
+              <a href="#" class="lista_menu_link">GRANDES AUTORES</a>
+            </li>
+            <li class="lista_menu_item">
+              <a href="#" class="lista_menu_link">DICIONÁRIOS PORTUGUÊS / INGLÊS / ESPANHOL</a>
+            </li>
+            <li class="lista_menu_item">
+              <a href="#" class="lista_menu_link">LIVROS RELIGIOSOS</a>
+            </li>
+            <li class="lista_menu_item">
+              <a href="#" class="lista_menu_link">MITOLOGIA</a>
+            </li>
+            <li class="lista_menu_item">
+              <a href="#" class="lista_menu_link">ARTE</a>
+            </li>
+            <li class="lista_menu_item">
+              <a href="#" class="lista_menu_link">ATLAS</a>
+            </li>
+          </ul>
+        <img
+          src="img/logo.png"
+          alt="logo da AluraBooks"
+          class="container__imagem"
+        />
+        <h1 class="container_titulo">Biblioteca Digital M<b class="container_titulo_negrito">H</b><b class="container_titulo_negrito">G</b>B</h1>
+      </div>
+
+      <ul class="opções">
+        <input type="checkbox" id="opções_menu" class="opções_botão">
+        <label for="opções_menu" class="opções_rotulo">
+            <li class="opções_item">CATEGORIAS</li>
+        </label>
+
+        <ul class="lista_menu">
+          <li class="lista_menu_item">
+            <a href="#" class="lista_menu_link">Programação</a>
+          </li>
+          <li class="lista_menu_item">
+            <a href="#" class="lista_menu_link">Front-end</a>
+          </li>
+          <li class="lista_menu_item">
+            <a href="#" class="lista_menu_link">Infraestrutura</a>
+          </li>
+          <li class="lista_menu_item">
+            <a href="#" class="lista_menu_link">Business</a>
+          </li>
+          <li class="lista_menu_item">
+            <a href="#" class="lista_menu_link">Design & UX</a>
+          </li>
+        </ul>
+
+        <li class="opções_item"><a href="#" class="opções_link">FAVORITOS</a></li>
+      </ul>
+
+      <div class="container">
+        <a href="#" class="container_link"
+          ><img
+            src="img/Usuário.svg"
+            alt="meus perfil"
+            class="container__imagem"
+        /><p class="container_texto">Meu perfil</p></a>
+      </div>
+    </header>
+
+    <header class="banner">
+        <h2 class="banner_titulo">Já leu um livro hoje?</h2>
+        <p class="banner_texto">
+          Encontre em nossa estante o que precisa para seu desenvolvimento!
+        </p>
+        <input
+          type="search"
+          class="banner_pesquisa"
+          placeholder="Qual será sua próxima leitura?"
+          />
+    </header>
+
+    <section class="pesquisaLivro">
+        <div class="livro__background">
+            <div class="livro">
+                <img class="livro__imagem" src="img livro/eu sou malala.png" alt="Capa do livro Eu Sou Malala">
+                <div class="livro__info">
+                <span class="livro__categoria">📖 Livro</span>
+                <h3 class="livro__titulo">Eu Sou Malala</h3>
+                <p class="livro__autor">Ziraldo</p>
+                <span class="livro__tag">Ensino Fundamental 1</span>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <section class="pesquisaLivro">
+        <div class="livro__background">
+            <div class="livro">
+                <img class="livro__imagem" src="img livro/eu sou malala.png" alt="Capa do livro Eu Sou Malala">
+                <div class="livro__info">
+                <span class="livro__categoria">📖 Livro</span>
+                <h3 class="livro__titulo">Eu Sou Malala</h3>
+                <p class="livro__autor">Ziraldo</p>
+                <span class="livro__tag">Ensino Fundamental 1</span>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <section class="pesquisaLivro">
+        <div class="livro__background">
+            <div class="livro">
+                <img class="livro__imagem" src="img livro/eu sou malala.png" alt="Capa do livro Eu Sou Malala">
+                <div class="livro__info">
+                <span class="livro__categoria">📖 Livro</span>
+                <h3 class="livro__titulo">Eu Sou Malala</h3>
+                <p class="livro__autor">Ziraldo</p>
+                <span class="livro__tag">Ensino Fundamental 1</span>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <section class="pesquisaLivro">
+        <div class="livro__background">
+            <div class="livro">
+                <img class="livro__imagem" src="img livro/eu sou malala.png" alt="Capa do livro Eu Sou Malala">
+                <div class="livro__info">
+                <span class="livro__categoria">📖 Livro</span>
+                <h3 class="livro__titulo">Eu Sou Malala</h3>
+                <p class="livro__autor">Ziraldo</p>
+                <span class="livro__tag">Ensino Fundamental 1</span>
+                </div>
+            </div>
+        </div>
+    </section>
+
+</body>
+</html>
